@@ -89,6 +89,20 @@ export const dataModels: Array<DataModel> = [
         inputs: ['field1', 'field2', 'field3', 'field4', 'field5', 'field6', 'field7', 'field8', 'field9', 'field10'],
         operation: Operation.Mean,
       },
+      {
+        label: 'Median',
+        name: 'median',
+        dataType: DataType.Text,
+        inputs: ['field1', 'field2', 'field3', 'field4', 'field5', 'field6', 'field7', 'field8', 'field9', 'field10'],
+        operation: Operation.Median,
+      },
+      {
+        label: 'Standard Devision',
+        name: 'standardDevision',
+        dataType: DataType.Text,
+        inputs: ['field1', 'field2', 'field3', 'field4', 'field5', 'field6', 'field7', 'field8', 'field9', 'field10'],
+        operation: Operation.StandardDevision,
+      },
     ],
   },
 ];

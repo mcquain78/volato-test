@@ -1,10 +1,9 @@
 import { Picker } from '@react-native-picker/picker';
-import { DataModel } from '../types';
 
 interface DataModelPickerProps {
-  options: Array<{ label: string; value: DataModel }>;
-  value: DataModel;
-  onChange: (value: DataModel) => void;
+  options: Array<{ label: string; value: string }>;
+  value: string;
+  onChange: (name: string) => void;
 }
 
 export default function DataModelPicker(props: DataModelPickerProps) {
